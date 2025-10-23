@@ -31,26 +31,26 @@ O script foi projetado para fortalecer a segurança do servidor, permitindo o ac
 1.  **Clone o repositório ou baixe o script:**
 
     ```bash
-    git clone [URL_DO_SEU_REPOSITÓRIO_GIT]
-    cd [NOME_DO_SEU_REPOSITÓRIO]
+    git clone https://github.com/fabaodabahia/UFW-Sentinel.git
+    cd UFW-Sentinel
     ```
 
     Ou, para baixar apenas o script:
 
     ```bash
-    wget https://raw.githubusercontent.com/[SEU_USUARIO]/[SEU_REPOSITORIO]/main/firewall_final_setup.sh
+    wget https://raw.githubusercontent.com/fabaodabahia/UFW-Sentinel/main/firewall_setup.sh
     ```
 
 2.  **Dê permissão de execução ao script:**
 
     ```bash
-    chmod +x firewall_final_setup.sh
+    chmod +x firewall_setup.sh
     ```
 
 3.  **Execute o script com `sudo`:**
 
     ```bash
-    sudo ./firewall_final_setup.sh
+    sudo ./firewall_setup.sh
     ```
 
 4.  **Siga as instruções:**
@@ -99,26 +99,26 @@ A política de **SAÍDA (OUTGOING)** é **PERMITIR TUDO** por padrão, o que já
 1.  **Clone the repository or download the script:**
 
     ```bash
-    git clone [YOUR_GIT_REPOSITORY_URL]
-    cd [YOUR_REPOSITORY_NAME]
+    git clone https://github.com/fabaodabahia/UFW-Sentinel.git
+    cd UFW-Sentinel
     ```
 
     Or, to download just the script file:
 
     ```bash
-    wget https://raw.githubusercontent.com/[YOUR_USERNAME]/[YOUR_REPO]/main/firewall_final_setup.sh
+    wget https://raw.githubusercontent.com/fabaodabahia/UFW-Sentinel/main/firewall_setup.sh
     ```
 
 2.  **Make the script executable:**
 
     ```bash
-    chmod +x firewall_final_setup.sh
+    chmod +x firewall_setup.sh
     ```
 
 3.  **Run the script with `sudo`:**
 
     ```bash
-    sudo ./firewall_final_setup.sh
+    sudo ./firewall_setup.sh
     ```
 
 4.  **Follow the on-screen prompts:**
